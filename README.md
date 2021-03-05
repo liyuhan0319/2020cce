@@ -162,12 +162,29 @@ int main(void)
 	printf("[%d]",MYPOWER(a,b));
 	return 0;
 }
-
-
 ```
 
 
 ## 第三題 讀入整數反序列印 3/5 實
+```c
+#include <stdio.h>
+int main()
+{
+	int n,a=0;
+	scanf("%d",&n);
+	for (int i=1;i<=n;i++){
+		a+=i*(i-1);
+	}
+	printf("%d\n",a);
+}
+```
+
+## 第四題 讀入整數反序列印 3/5 實
+```c
+
+```
+
+## 第五題 讀入整數反序列印 3/5 實
 ```c
 
 ```
