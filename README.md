@@ -148,8 +148,8 @@ int main()
 #include <stdio.h>
 int MYPOWER(int a,int b)
 {
-	int n;
-	for(int i=b-1;i>0;i--){
+	int n=1;
+	for(int i=b;i>0;i--){
 		n*=a;
 		}
 		return n;
