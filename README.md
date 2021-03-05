@@ -143,7 +143,7 @@ int main()
 ```
 
 
-## 第二題 讀入整數反序列印 3/5 實
+## 第二題 A的B次方函數 3/5 實
 ```c
 #include <stdio.h>
 int MYPOWER(int a,int b)
@@ -165,7 +165,7 @@ int main(void)
 ```
 
 
-## 第三題 讀入整數反序列印 3/5 實
+## 第三題 漸增數列相加 3/5 實
 ```c
 #include <stdio.h>
 int main()
