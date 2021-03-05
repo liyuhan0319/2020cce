@@ -84,7 +84,20 @@ int main()
 
 ## 第七題 利用 int *p2 來改變 n3 變數的值
 ```c
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 
+    int *p = &n1;
+    *p = 200;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+
+    int *p2 =&n3;
+    *p = 300;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+}
 ```
 
 ## 第八題 利用 p2=p 讓口袋的address位址換了一張, 所以 *p2=400 就會換到其他地方送400元
