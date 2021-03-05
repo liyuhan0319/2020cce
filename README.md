@@ -195,3 +195,40 @@ int main()
 ```c
 
 ```
+
+## 第六題 均標與前標計算  3/5 實
+```c
+#include <stdio.h>
+int main()
+{
+	int n,a[100];
+	float b,c,t=0,d=0,e=0;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++){
+		scanf("%d",&a[i]);
+		t+=a[i];
+	}
+	b=t/n;
+	for(int i=0;i<n;i++){
+		if(a[i]>=b ){
+		d++;
+		e+=a[i];
+		}
+	}
+	
+	c=e/d;
+	printf("均標:%.1f\n",b);
+	printf("前標:%.1f\n",c);
+}
+
+```
+
+## 第五題 讀入整數反序列印 3/5 實
+```c
+
+```
+
+## 第五題 讀入整數反序列印 3/5 實
+```c
+
+```
