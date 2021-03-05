@@ -70,7 +70,16 @@ int main()
 
 ## 第六題 利用 int *p 來改變 n1變數的值
 ```c
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 
+    int *p = &n1;
+    *p = 200;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+}
 ```
 
 ## 第七題 利用 int *p2 來改變 n3 變數的值
