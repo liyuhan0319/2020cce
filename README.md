@@ -179,9 +179,16 @@ int main()
 }
 ```
 
-## 第四題 讀入整數反序列印 3/5 實
+## 第四題 判別正方形 3/5 實
 ```c
-
+include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	if(a==b) printf("Enter two numbers:  It is a square ");
+	else printf("Enter two numbers:  It is not a square ");
+}
 ```
 
 ## 第五題 讀入整數反序列印 3/5 實
