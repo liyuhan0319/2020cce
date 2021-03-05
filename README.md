@@ -1,6 +1,6 @@
 # 2020cce
 
-## 第一題 找零錢
+## 第一題 找零錢 2/26 實
 ```c
 #include <stdio.h>
 int main()
@@ -11,7 +11,7 @@ int main()
 }
 ```
  
-## 第二題 因數個數
+## 第二題 因數個數 2/26 實
 ```c
 #include <stdio.h>
 int main()
@@ -26,7 +26,7 @@ int main()
 }
 ```
 
-## 第三題 找倍數
+## 第三題 找倍數 2/26 實
 ```c
 #include <stdio.h>
 int main()
@@ -40,7 +40,7 @@ int main()
 }
 ```
 
-## 第四題 整數轉換為等級
+## 第四題 整數轉換為等級 2/26 實
 ```c
 #include <stdio.h>
 int main()
@@ -54,7 +54,7 @@ int main()
 }
 ```
 
-## 第五題 分式化簡 
+## 第五題 分式化簡  2/26 實
 ```c
 #include <stdio.h>
 int main()
@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-## 第六題 利用 int *p 來改變 n1變數的值
+## 第一題 利用 int *p 來改變 n1變數的值 3/5 正
 ```c
 #include <stdio.h>
 int main()
@@ -82,7 +82,7 @@ int main()
 }
 ```
 
-## 第七題 利用 int *p2 來改變 n3 變數的值
+## 第二題 利用 int *p2 來改變 n3 變數的值 3/5 正
 ```c
 #include <stdio.h>
 int main()
@@ -100,7 +100,7 @@ int main()
 }
 ```
 
-## 第八題 利用 p2=p 讓口袋的address位址換了一張, 所以 *p2=400 就會換到其他地方送400元
+## 第三題 利用 p2=p 讓口袋的address位址換了一張, 所以 *p2=400 就會換到其他地方送400元 3/5 正
 ```c
 #include <stdio.h>
 int main()
