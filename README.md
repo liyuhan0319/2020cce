@@ -304,7 +304,13 @@ int main()
 
 ## 第三題 計算幾週與幾天
 ```c
-
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	printf("%d %d\n",n/7,n%7);
+}
 ```
 
 ## 第四題 計程車資計算 
