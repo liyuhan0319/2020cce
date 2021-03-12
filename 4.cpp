@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+int a[10];
 int main()
 {
-	int n;
-	scanf("%d",&n);
-	if(n>=90) printf("A\n");
-	else if(n<90 && n>=80) printf("B\n");
-	else if(n<80 && n>60) printf("C\n");
-	else printf("F\n");
+    int b[10];
+    int *p = (int*) malloc ( sizeof (int)*10 );
+    return 0;
 }
