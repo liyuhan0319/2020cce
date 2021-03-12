@@ -230,12 +230,21 @@ int main()
 
 ```
 
-## 第五題 讀入整數反序列印 3/5 實
+## 第題 把 int * p = &a[2] ; 的 p 心中的值(心裡放住址的小紙條) 印出來給你看 printf("%d\n", p);  3/12 正
 ```c
 
 ```
 
-## 第五題 讀入整數反序列印 3/5 實
+## 第五題 malloc() 3/12 正
 ```c
+#include <stdio.h>
+#include <stdlib.h>
 
+int a[10];
+int main()
+{
+    int b[10];
+    int *p = (int*) malloc ( sizeof (int)*10 );
+    return 0;
+}
 ```
