@@ -232,6 +232,28 @@ int main()
 
 ## 第題 把 int * p = &a[2] ; 的 p 心中的值(心裡放住址的小紙條) 印出來給你看 printf("%d\n", p);  3/12 正
 ```c
+#include <stdio.h>
+int a[5]={0,10,20,30,40,50};
+void printALL(){
+    for (int i=0;i<5;i++) printf("%d ",a[i]);
+    printf("\n");
+}
+int main()
+{
+            printALL();
+    int  *p=&a[2];
+    *p=222;
+            printALL();
+            printf("p:%d\n",p);
+    p=p+2;
+    *p=666;
+            printALL();
+            printf("p:%d\n",p);
+    p--;
+    *p=555;
+            printALL();
+            printf("p:%d\n",p);
+}
 
 ```
 
