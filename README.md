@@ -328,7 +328,20 @@ int main()
 
 ## 第五題 兩數間可被5整除的整數
 ```c
-
+#include <stdio.h>
+int main()
+{
+	int m,n,a=0;
+	scanf("%d%d",&m,&n);
+	if(m>n){
+		a=n;
+		n=m;
+		m=a;	
+	}
+		for (int i=m;i<=n;i++){
+		if(i%5==0) printf("%d\n",i);
+		}
+}
 ```
 
 ## 第六題 整數間最大距離 
