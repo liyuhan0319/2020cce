@@ -543,8 +543,8 @@ int main()
     }
 }
 ```
-
-## 第四題 
+ 
+## 第四題  '\0' 與 0
 ```c
 #include <stdio.h>
 int main()
@@ -553,9 +553,20 @@ int main()
 }
 ```
 
-## 第題 
+## 第五題 strcpy() 及 strcmp() 字串比大小
 ```c
-
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char line[10]="majority";
+    char line2[10]="ask";
+    if(strcmp(line,line2)>0){
+        printf("left 大\n");
+    }else{
+        printf("right 大\n");
+    }
+}
 ```
 
 ## 第題 
