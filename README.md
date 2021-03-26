@@ -371,42 +371,133 @@ int main()
 
 ## 第一題 除惡務盡 
 ```c
-
+#include <stdio.h>
+int main()
+{
+	char a[100];
+	scanf("%s",&a);
+	
+	int i=0;
+	while (a[i] != '\0')
+	{
+		if(a[i] != '2') printf("%c",a[i]);
+		i++;
+	}
+	printf("\n");
+} 
 ```
 
 ## 第二題 擲骰統計
 ```c
-
+#include <stdio.h>
+int main()
+{
+	char a[100];
+	char count[7] = {0};
+	scanf("%s",&a);
+	
+	int i=0;
+	while(a[i] != '\0')
+	{
+		count[a[i]-'0']++;
+		i++;
+	}
+	for(int i=1;i<=6;i++){
+		printf("%d:%d\n",i,count[i]);
+	}
+}
 ```
 
 ## 第三題 函數找整數的最大數字
 ```c
-
+#include<iostream>
+using namespace std;
+int max_digit(int n){
+	int M;
+	scanf("%s",&n);
+	M=n%10;
+	while(n>0){
+		if(n%10>M) M=n%10;
+		n/=10;
+	}
+	return M;
+}
+int main(){
+  int n;cin>>n;
+  cout<<"["<<max_digit(n)<<"]";
+  return 0;
+}
 ```
 
 ## 第四題 星星等腰三角
 ```c
-
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++){
+	for(int j=n-i;j>0;j--){
+		printf(" ");
+	}
+	for(int k=1;k<=2*i-1;k++){
+		printf("*");
+	}
+	printf("\n");
+	}
+}
 ```
 
 ## 第五題 分開整數的每個數字 
 ```c
-
+#include <stdio.h>
+int main()
+{
+	char a[5];
+	scanf("%s",&a);
+	for(int i=0;i<5;i++){
+		printf("%c",a[i]);
+		if(i!=4) printf("   ");
+	}
+}
 ```
 
 ## 第六題 字元判別
 ```c
-
+#include <stdio.h>
+int main()
+{
+	char a;
+	scanf("%c",&a);
+	if(a>='A' && a<='Z') printf("U");
+	else if(a>='a' && a<='z') printf("L");
+	else if(a>='0' && a<='9') printf("D");
+	else printf("O");
+}
 ```
 
 ## 第七題 數字之首 
 ```c
-
+#include <stdio.h>
+int main()
+{
+	char N[100];
+	scanf("%s",&N);
+	printf("%c",N[0]);
+}
 ```
 
 ## 第八題 輸出從0到N的偶數 
 ```c
-
+#include <stdio.h>
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for(int i=1;i<=N;i++){
+		if(i%2==0)printf("%d ",i);
+	}
+}
 ```
 
 ## 第一題 請了解, 字串後面會放 '\0' 這個特殊符號, 表字串結尾 3/26 正
