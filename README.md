@@ -369,7 +369,7 @@ int main()
 	}
 ```
 
-## 第一題 除惡務盡 
+## 第一題 除惡務盡 3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -387,7 +387,7 @@ int main()
 } 
 ```
 
-## 第二題 擲骰統計
+## 第二題 擲骰統計 3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -408,7 +408,7 @@ int main()
 }
 ```
 
-## 第三題 函數找整數的最大數字
+## 第三題 函數找整數的最大數字 3/19 實
 ```c
 #include<iostream>
 using namespace std;
@@ -429,7 +429,7 @@ int main(){
 }
 ```
 
-## 第四題 星星等腰三角
+## 第四題 星星等腰三角 3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -448,7 +448,7 @@ int main()
 }
 ```
 
-## 第五題 分開整數的每個數字 
+## 第五題 分開整數的每個數字 3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -462,7 +462,7 @@ int main()
 }
 ```
 
-## 第六題 字元判別
+## 第六題 字元判別3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -476,7 +476,7 @@ int main()
 }
 ```
 
-## 第七題 數字之首 
+## 第七題 數字之首 3/19 實
 ```c
 #include <stdio.h>
 int main()
@@ -487,7 +487,7 @@ int main()
 }
 ```
 
-## 第八題 輸出從0到N的偶數 
+## 第八題 輸出從0到N的偶數 3/19 實
 ```c
 #include <stdio.h>
 int main()
