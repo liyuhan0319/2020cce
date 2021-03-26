@@ -5,9 +5,9 @@ int main()
     char line[10]="majority";
     char line2[10]="ask";
     if(strcmp(line,line2)>0){
-        printf("left ¤j\n");
+        printf("left Â¤j\n");
     }else{
-        printf("right ¤j\n");
+        printf("right Â¤j\n");
     }
 
 }
