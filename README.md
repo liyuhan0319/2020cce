@@ -532,14 +532,25 @@ int main()
 }
 ```
 
-## 第題 
+## 第三題 
 ```c
-
+#include <stdio.h>
+int main()
+{
+    char line[5][10]={"decline","proper","majority","bullet","shop"};
+    for(int i=0;i<5;i++){
+        printf("%s\n",line[i]);
+    }
+}
 ```
 
-## 第題 
+## 第四題 
 ```c
-
+#include <stdio.h>
+int main()
+{
+    printf("%d",'\0');
+}
 ```
 
 ## 第題 
