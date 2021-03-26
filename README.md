@@ -532,7 +532,7 @@ int main()
 }
 ```
 
-## 第三題 
+## 第三題  3/26 正
 ```c
 #include <stdio.h>
 int main()
@@ -544,7 +544,7 @@ int main()
 }
 ```
  
-## 第四題  '\0' 與 0
+## 第四題  '\0' 與 0 3/26 正
 ```c
 #include <stdio.h>
 int main()
@@ -553,7 +553,7 @@ int main()
 }
 ```
 
-## 第五題 strcpy() 及 strcmp() 字串比大小
+## 第五題 strcpy() 及 strcmp() 字串比大小 3/26 正
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -569,9 +569,32 @@ int main()
 }
 ```
 
-## 第題 
+## 第六題 字串排序 3/26 正
 ```c
-
+#include <stdio.h>
+#include <string.h>
+char line[100][10];
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	for(int i=0;i<N;i++){
+		scanf("%s",line[i]);
+	}
+	char temp[10];
+	for(int i=0;i<N;i++){
+	for(int j=i+1;j<N;j++){
+		if(strcmp(line[i],line[j])>0){
+			strcpy(temp,line[i]);
+			strcpy(line[i],line[j]);
+			strcpy(line[j],temp);
+		}	
+	}
+}
+	for(int i=0;i<N;i++){
+		printf("%s\n",line[i]);
+		}
+	}
 ```
 
 ## 第題 
