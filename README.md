@@ -702,7 +702,7 @@ int main()
 }
 ```
 
-## 第題 10420 List of Conquests 
+## 第二題 10420 List of Conquests 正 4/9
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -741,17 +741,17 @@ int main()
 }
 ```
 
-## 第題 迴文判斷 
+## 第一題 迴文判斷 實 4/9
 ```c
 
 ```
 
-## 第題 函數反序排列數字 
+## 第二題 函數反序排列數字 實 4/9
 ```c
 
 ```
 
-## 第題 陣列找出現次數 
+## 第三題 陣列找出現次數 實 4/9
 ```c
 #include <stdio.h>
 int main()
@@ -769,7 +769,7 @@ int main()
 }
 ```
 
-## 第題 判斷大小 
+## 第四題 判斷大小 實 4/9
 ```c
 #include <stdio.h>
 int f(int a,int b)
@@ -787,7 +787,7 @@ int main(){
 }
 ```
 
-## 第題 計算一列整數的總和
+## 第五題 計算一列整數的總和實 4/9
 ```c
 #include <stdio.h>
 int main()
@@ -803,7 +803,7 @@ int main()
 }
 ```
 
-## 第題 計算餘數 
+## 第六題 計算餘數 實 4/9
 ```c
 #include <stdio.h>
 int main()
@@ -815,7 +815,7 @@ int main()
 }
 ```
 
-## 第題 整數轉換等級
+## 第七題 整數轉換等級實 4/9
 ```c
 #include <stdio.h>
 int main()
@@ -830,7 +830,7 @@ int main()
 }
 ```
 
-## 第題 計程車資計算 
+## 第八題 計程車資計算 實 4/9
 ```c
 #include <stdio.h>
 int main()
@@ -843,7 +843,7 @@ int main()
 }
 ```
 
-## 第題 找零錢 
+## 第九題 找零錢 實 4/9
 ```c
 #include <stdio.h>
 int main()
