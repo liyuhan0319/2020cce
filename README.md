@@ -748,7 +748,22 @@ int main()
 
 ## 第二題 函數反序排列數字 實 4/9
 ```c
-
+#include <stdio.h>
+int f(int n)
+{
+	int a=0;
+	while(n>0){
+		a=a*10+n%10;
+		n/=10;
+	}
+	return a;
+}
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	printf("%d\n",f(n));
+}
 ```
 
 ## 第三題 陣列找出現次數 實 4/9
