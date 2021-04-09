@@ -702,6 +702,169 @@ int main()
 }
 ```
 
+## 第題 10420 List of Conquests 
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+char line[100][10];
+char other[100];
+
+int compare (const void * p1,const void * p2){
+	char * s1 = (char*) p1;
+	char * s2 = (char*) p2;
+	return strcmp (s1,s2);
+}
+int main()
+{
+	int ans=1;
+	int n;
+	scanf("%d",&n);
+	
+	for (int i=0;i<n;i++){
+		scanf("%s",line[i]);
+		gets (other);
+	}
+
+	qsort(line,n,10,compare);
+	
+	for (int i=0;i<n;i++){
+		if(strcmp(line[i],line[i+1])==0){
+			ans++;
+		}
+		else{
+		printf("%s %d\n",line[i],ans);
+		ans=1;
+	}
+}
+}
+```
+
+## 第題 迴文判斷 
+```c
+
+```
+
+## 第題 函數反序排列數字 
+```c
+
+```
+
+## 第題 陣列找出現次數 
+```c
+#include <stdio.h>
+int main()
+{
+	int n[10],a=0,b;
+	for (int i=0;i<10;i++){
+		scanf("%d",&n[i]);
+		if (n[i]==0) break;
+	}
+	scanf("%d",&b);
+	for (int i=0;i<10;i++){
+		if(n[i]==b) a++;
+	}
+	printf("%d\n",a);
+}
+```
+
+## 第題 判斷大小 
+```c
+#include <stdio.h>
+int f(int a,int b)
+{
+	scanf("%d%d",&a,&b);
+	if (a<b) return -1;
+	else if (a==b)return 0;
+	else return 1;
+}
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d",f(a,b));
+    return 0;
+}
+```
+
+## 第題 計算一列整數的總和
+```c
+#include <stdio.h>
+int main()
+{
+	int n=0,a=0;
+	while (n!=999){
+	a+=n;
+	printf("Enter an integer ( 999 to end ): \n");
+	scanf("%d",&n);
+	
+	}
+	printf("The total is: %d",a);
+}
+```
+
+## 第題 計算餘數 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	
+	printf("%d",a%b);
+}
+```
+
+## 第題 整數轉換等級
+```c
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	if (a>=90) printf("A");
+	else if (a<90 && a>=80) printf("B");
+	else if (a<80 && a>=70) printf("C");
+	else if (a<70 && a>=60) printf("D");
+	else printf("F");
+}
+```
+
+## 第題 計程車資計算 
+```c
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	if (a<1500) printf("100");
+	else if((a-1500)%250==0) printf("%d",100+(a-1500)/250*5);
+	else if((a-1500)%250!=0) printf("%d",100+(a-1500)/250*5+5);
+}
+```
+
+## 第題 找零錢 
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,c,d,e;
+	scanf("%d",&a);
+	
+	b=a/50;
+	c=a%50/10;
+	d=a%50%10/5;
+	e=a-50*(a/50)-10*(a%50/10)-5*(a%50%10/5);
+	
+	printf("%d=50*%d+10*%d+5*%d+1*%d",a,b,c,d,e);
+}
+```
+
+## 第題 
+```c
+
+```
+
 ## 第題 
 ```c
 
