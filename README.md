@@ -977,7 +977,7 @@ int main()
 
 ```
 
-## 第一題 Hardwood species 4/30 
+## 第一題 Hardwood species 4/30 正
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -1024,7 +1024,7 @@ int main()
 }
 ```
 
-## 第一題 最大公因數gcd 4/30
+## 第一題 最大公因數gcd 4/30 實
 ```c
 #include <stdio.h>
 int main()
@@ -1038,7 +1038,7 @@ int main()
 }
 ```
 
-## 第二題 字串長度 4/30
+## 第二題 字串長度 4/30 實
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -1055,7 +1055,7 @@ int main()
 }
 ```
 
-## 第三題 函數判斷質數4/30
+## 第三題 函數判斷質數4/30 實
 ```c
 #include <iostream>
 using namespace std;
@@ -1088,7 +1088,7 @@ int main(void){
 */
 ```
 
-## 第四題 判斷迴文 4/30
+## 第四題 判斷迴文 4/30 實
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -1109,7 +1109,7 @@ int main()
 }
 ```
 
-## 第五題 計算餘數及列印 4/30
+## 第五題 計算餘數及列印 4/30 實
 ```c
 #include <stdio.h>
 int main()
@@ -1122,7 +1122,7 @@ int main()
 }
 ```
 
-## 第六題 判別正方形 4/30
+## 第六題 判別正方形 4/30 實
 ```c
 #include <stdio.h>
 int main()
@@ -1135,7 +1135,7 @@ int main()
 }
 ```
 
-## 第七題 將一連串整數相乘 4/30
+## 第七題 將一連串整數相乘 4/30 實
 ```c
 #include <stdio.h>
 int main()
@@ -1153,7 +1153,7 @@ int main()
 }
 ```
 
-## 第八題 平年月份的天數 4/30
+## 第八題 平年月份的天數 4/30 實
 ```c
 #include <stdio.h>
 int main()
